@@ -1,0 +1,38 @@
+{
+  "wallets": {
+    "bitcoin": {
+      "network": "mainnet",
+      "address": "1B1jdPhCCzCqDHpANTFzmAyrfW13GK26nd",
+      "minDeposit": 0.0001,
+      "icon": "https://cryptologos.cc/logos/bitcoin-btc-logo.png",
+      "depositNote": "Send only BTC to this address. Minimum deposit: 0.0001 BTC"
+    },
+    "tether": {
+      "network": "TRON (TRC20)",
+      "address": "Not Available",
+      "minDeposit": 10,
+      "icon": "https://cryptologos.cc/logos/tether-usdt-logo.png",
+      "depositNote": "Send only USDT on TRC20. Minimum deposit: 10 USDT"
+    },
+    "ethereum": {
+      "network": "Ethereum (ERC20)",
+      "address": "Not Available",
+      "minDeposit": 10,
+      "icon": "https://cryptologos.cc/logos/tether-usdt-logo.png",
+      "depositNote": "Send only USDT on ERC20. Gas fees apply."
+    }
+  },
+  "depositInstructions": {
+    "en": "Make sure to double-check the network and amount before sending. Your deposit will be confirmed after 3 confirmations on the blockchain.",
+    "supportEmail": "support@yourplatform.com",
+    "confirmationTime": "Typically within 15–30 minutes."
+  },
+  "feeSettings": {
+    "depositFeePercent": 0,
+    "withdrawalFeePercent": 1.5
+  },
+  "adminMeta": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-08-30T10:19:23.370Z"
+  }
+}
