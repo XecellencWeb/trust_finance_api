@@ -9,6 +9,7 @@ import { WalletModule } from './wallet/wallet.module';
 import { BankingSystemModule } from './banking-system/banking-system.module';
 import { AdminConfigurationModule } from './admin-configuration/admin-configuration.module';
 import { CryptoDepositsModule } from './crypto-deposits/crypto-deposits.module';
+import { WithdrawModule } from './withdraw/withdraw.module';
 
 @Module({
 
@@ -17,7 +18,7 @@ import { CryptoDepositsModule } from './crypto-deposits/crypto-deposits.module';
     MongooseModule.forRoot(process.env.DB_URL ?? ''), 
     AuthModule, UserModule, WalletModule, 
     BankingSystemModule, AdminConfigurationModule, 
-    CryptoDepositsModule],
+    CryptoDepositsModule, WithdrawModule],
   controllers: [AppController],
   providers: [AppService],
 })
