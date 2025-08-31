@@ -125,6 +125,7 @@ export class UserService {
       .populate('wallet')
       .skip((page - 1) * limit)
       .limit(limit)
+      .sort({ createdAt: -1 })
       .exec();
 
     const total = await this.userModel.countDocuments(filters);
